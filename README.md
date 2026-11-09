@@ -35,6 +35,8 @@ packages/
 
 ## Data pipeline
 
+> **Status:** the scheduled pipeline is currently paused, so data in the app may be out of date.
+
 Each scraper lives in `services/api/scripts` and runs on its own schedule via GitHub Actions (`.github/workflows`):
 
 | Script | Schedule |
